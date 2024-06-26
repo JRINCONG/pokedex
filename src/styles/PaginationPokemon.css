@@ -1,0 +1,53 @@
+.Conten_Buton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: row-reverse;
+    gap:5px
+}
+.Conten_page{
+    display: flex;
+    gap: 5px;
+    color: red;
+}
+.Limit, .Limitmenos{
+    padding: 2px;
+    color: red;
+    cursor: pointer;
+    border-radius: 10%;
+    border: 1px solid;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+
+  
+}
+.Next{
+    display: flex;
+    
+}
+
+.Back:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(155, 80, 80);
+}
+.Next:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(155, 80, 80);
+}
+.Limitmenos:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(231, 169, 169);
+
+}
+.Limit:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(155, 80, 80);    
+
+} 

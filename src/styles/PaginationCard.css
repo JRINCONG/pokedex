@@ -1,0 +1,24 @@
+.Pagination{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px;
+}
+.anterior, .siguiente{
+    padding: 2px;
+    color: red;
+    cursor: pointer;
+    border-radius: 10%;
+    border: 1px solid;
+}
+
+.anterior:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(155, 80, 80);
+}
+.siguiente:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(155, 80, 80);
+}

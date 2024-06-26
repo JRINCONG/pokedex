@@ -1,0 +1,161 @@
+.conten-PokemonCard{
+    border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.Pokedex_page_name{
+display: flex;
+padding: 10px;
+align-items: center;
+text-transform: capitalize;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.Pokedex_page_name span{
+    color: red;
+    text-transform: capitalize;
+}
+.SectionCard{
+    position: relative;
+    border:5px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 15px;
+    align-items:center;
+    background-color: grey;
+    overflow: hidden;
+
+    
+}
+.pokedex_type{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    
+}
+.pokedex_type li{
+    list-style: none;
+    display: flex;
+}
+.Slot2::before{
+    content: '/';
+    margin: 0 5px;
+}
+.pokedex_TYPE{
+text-transform: capitalize;
+margin: 10px;
+}
+.pokedex_hr{
+    width: 90%;
+    margin: 10px 0;
+
+   
+    
+}
+.Pokedex_busqueda{
+    display: flex;
+    justify-content:space-around;
+    gap:5px;
+    flex-wrap: wrap;
+
+}
+
+.PokedexDatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    padding-top: 130px;
+}
+
+
+.pokedex_namegrass{
+    color: green;
+    
+}
+.pokedex_namefire{
+    color:orangered;
+    
+}
+.pokedex_namewater{
+  color: blue;
+}
+.pokedex_namebug{
+    color:  rgb(117, 225, 51);
+}
+.pokedex_nameghost{
+    color:   rgb(56, 55, 55);
+}
+.pokedex_namedragon{
+    color:  rgb(95, 24, 24);
+}
+.pokedex_back{
+   
+ background-color: aqua;
+ width: 100%;
+ height: 100px;
+    
+}
+.grass{
+    background-color: green;
+    
+}
+.water{
+    background-color: blue;
+}
+
+.fire{
+    background-color: orangered;
+}
+.bug{
+    background-color: rgb(117, 225, 51);
+}
+.ghost{
+    background-color: rgb(56, 55, 55);
+}
+.dragon{
+    background-color: rgb(95, 24, 24);
+}
+.pokecardImg{
+    width: 80%;
+    position:absolute;
+
+}
+.poison{
+    background-color: violet;
+}
+.flying{
+    background-color: #879BFE;
+}
+.normal{
+    background-color: rgb(155, 153, 153);
+}
+.poke_info_item{
+    color: #fff;
+}
+
+
+.pokedex_stat li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.pokedex_stat{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  justify-items: center;
+   align-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+}
+
